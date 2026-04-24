@@ -1,0 +1,42 @@
+# NAID_IF PROJECT WORKFLOW.
+
+
+1-Initial problem statement: what, why, how, goal, and desiered outcomes.
+2-data understanding and validation: Descriptive explination of the dataset.
+    a) Source and authenticity of the source.
+    b) Relevence to the problem.
+    d) Reason of the dataset slection in particular.
+    c) Associated works.
+    e) Dataset Gathering method, tools, and documentations.
+    f) features explaination.
+    g) Flowisd
+
+3-data loading inspecting and preprocessing: Goal is preparing data to be explored correctly without bias or misleading results.
+    a) drop NaN values.
+    b) drop duplicates.
+    c) remove noise(inf/-inf, irrelevent values, inappropriate entries).
+    d) remove inconsistancies( different names for same entity).
+
+4-Exploratory Data Analysis: understand the data and structure, as well as how to utilize that understanding to obtain most accurate results.
+    a) Explore general structure of problem relevent features.
+    b) Explore correlated features.
+    c) Explore relationships between features.
+    d) Find hidden Characteristics.
+    Note ) Class imbalance is important, it helps quickly identifying putliers.
+
+5-Feature Engineering: Goal is prepare data to be trained, reduceing complexity of training.....
+    a) Drop correlated features or deal with them.
+    b) Reduce dimentionlity.
+    c) normalize features.
+    d) Create new features from existing ones (if needed).
+    e) Encode labels
+    f) Removig low varience features (hold no value to the predictions).
+
+6-Train the model: Isolation Forest.
+    a)Fine tuning the hyperparameters (optimization).
+    b) Validation to new input data the model have not ever seen.
+
+7-Evaluation: All evaluation metrics must be obtained.
+    
+
+

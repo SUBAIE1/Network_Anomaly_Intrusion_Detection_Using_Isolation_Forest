@@ -1,0 +1,1 @@
+first we are training the model after dropping all correlated features completly + Regardless of days.
